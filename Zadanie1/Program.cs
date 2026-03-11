@@ -92,9 +92,10 @@ static int CalculateMin(int[] values)
 
     return min;
 }
+int min = CalculateMin(numbers);
 
 int max = CalculateMax(numbers);
-
+Console.WriteLine($"Najmniejsza liczba to: {min}")
 Console.WriteLine($"Największa liczba to: {max}")
 
 Console.WriteLine();
