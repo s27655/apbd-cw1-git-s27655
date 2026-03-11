@@ -1,5 +1,5 @@
-﻿Console.WriteLine("Witaj w prostej aplikacji .NET!");
-Console.WriteLine("--------------------------------");
+﻿Console.WriteLine("Witaj w aplikacji!");
+Console.WriteLine("-------------------");
 
 Console.Write("Podaj swoje imię: ");
 string? imie = Console.ReadLine();
@@ -12,7 +12,7 @@ while (string.IsNullOrWhiteSpace(imie))
 
 Console.WriteLine();
 Console.WriteLine($"Cześć, {imie}!");
-Console.WriteLine("Miło Cię poznać.");
+Console.WriteLine($"Twoje imię zapisane wielkimi literami: {imie.ToUpper()}");
 Console.WriteLine("Dziękuję za skorzystanie z aplikacji!");
 
 Console.WriteLine();
