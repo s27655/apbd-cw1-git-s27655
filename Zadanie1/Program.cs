@@ -79,9 +79,9 @@ static int CalculateMax(int[] values)
     return max;
 }
 
-int max = CalculateMax(numbers);
+int maximum = CalculateMax(numbers);
 
-Console.WriteLine($"Największa liczba to: {max}")
+Console.WriteLine($"Największa liczba to: {maximum}")
 
 Console.WriteLine();
 Console.WriteLine("Naciśnij dowolny klawisz, aby zakończyć...");
