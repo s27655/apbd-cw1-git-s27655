@@ -47,7 +47,17 @@ else
 {
     Console.WriteLine("Masz ponad 100 lat!");
 }
+static double CalculateAverage(int[] values)
+{
+    int sum = 0;
 
+    foreach (int value in values)
+    {
+        sum += value;
+    }
+
+    return (double)sum / values.Length;
+}
 Console.WriteLine();
 Console.WriteLine("Naciśnij dowolny klawisz, aby zakończyć...");
 Console.ReadKey();
