@@ -64,6 +64,20 @@ static double CalculateAverage(int[] values)
 
     return (double)sum / values.Length;
 }
+static int CalculateMax(int[] values)
+{
+    int max = values[0];
+
+    foreach (int value in values)
+    {
+        if (value > max)
+        {
+            max = value;
+        }
+    }
+
+    return max;
+}
 Console.WriteLine();
 Console.WriteLine("Naciśnij dowolny klawisz, aby zakończyć...");
 Console.ReadKey();
