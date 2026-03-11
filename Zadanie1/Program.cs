@@ -47,6 +47,12 @@ else
 {
     Console.WriteLine("Masz ponad 100 lat!");
 }
+int[] numbers = { 5, 10, 15, 20 };
+
+double average = CalculateAverage(numbers);
+
+Console.WriteLine($"Średnia wynosi: {average}");
+
 static double CalculateAverage(int[] values)
 {
     int sum = 0;
